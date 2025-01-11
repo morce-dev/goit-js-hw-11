@@ -95,7 +95,7 @@ function createMarkup({
     </div>
   </div>
 </div>`;
-  gallery.innerHTML += div;
+  gallery.innerHTML = div;
 }
 
 function handleScroll() {
